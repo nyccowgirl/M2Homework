@@ -29,6 +29,7 @@ public class PairTester {
 		Quad quad2 = new Quad(wordPair2, numberPair3);
 
 		System.out.println(quad1);
+		System.out.println(quad2);
 		System.out.println(quad1.equals(quad2));
 
 	}
