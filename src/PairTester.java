@@ -32,6 +32,8 @@ public class PairTester {
 		System.out.println(quad2);
 		System.out.println(quad1.equals(quad2));
 
+
+
 	}
 
 }

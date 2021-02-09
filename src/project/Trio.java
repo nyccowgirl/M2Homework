@@ -76,7 +76,7 @@ public class Trio<T> {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Trio)) return false;
+        if (!(o instanceof Trio<?>)) return false;
         Trio<?> trio = (Trio<?>) o;
         return (Objects.equals(item1, trio.item1) && Objects.equals(item2, trio.item2) &&
                 Objects.equals(item3, trio.item3)) || (Objects.equals(item1, trio.item2) &&
