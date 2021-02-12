@@ -16,9 +16,7 @@ public class Trio<T> {
         this(item, item, item);
     }
 
-    public T getItem1() {
-        return item1;
-    }
+    public T getItem1() { return item1; }
 
     public void setItem1(T item1) {
         this.item1 = item1;
@@ -88,7 +86,4 @@ public class Trio<T> {
                 Objects.equals(item3, trio.item1)) || (Objects.equals(item1, trio.item2) &&
                 Objects.equals(item2, trio.item1) && Objects.equals(item3, trio.item3));
     }
-
-
-
 }
