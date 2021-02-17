@@ -44,9 +44,9 @@ public class Trio<T> {
     }
 
     public void replaceAll(T item) {
-        this.setItem1(item);
-        this.setItem2(item);
-        this.setItem3(item);
+        this.item1 = item;
+        this.item2 = item;
+        this.item3 = item;
     }
 
     public boolean hasDuplicates() {
